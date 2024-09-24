@@ -11,7 +11,7 @@
     $tasso = 5;
     $numGiorni = 200;
     $ris = ($capitale * $tasso * $numGiorni) / 36500;
-    number_format($ris,2);
+    $ris = number_format($ris,2);
     echo "<p>Il Capitale è pari a $capitale €</p><br>
          <p>Il Tasso è pari a $tasso%</p><br>
          <p>Il numero di giorni è pari a $numGiorni</p><br>
